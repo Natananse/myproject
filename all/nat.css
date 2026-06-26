@@ -1,0 +1,39 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 50px;
+    /* background: linear-gradient(135deg, #6e8efb, #a777e3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+} */
+.na {
+    color: red;
+    font-weight: bold;
+    margin-right: 200px;
+    shape-outside: rectangle(10px, 5px, 100px, 100px);
+}
+ul li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: #ffffff;          /* White text color */
+    cursor: pointer;
+    
+    /* Shape Settings */
+    background-color: #4f46e5; /* A sleek modern indigo background */
+    padding: 10px 24px;        /* Vertical and horizontal space inside the shape */
+    border-radius: 50px;       /* 50px creates a perfect pill shape. Change to 8px for a rounded box. */
+    
+    /* Adds a subtle shadow to give the shapes some depth */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    
+    /* Smooth transition effect for the hover animation */
+    transition: all 0.2s ease-in-out;
+}
+
+/* 3. Add an interactive hover effect */
+ul li:hover {
+    background-color: #4338ca; /* Darkens the shape slightly when hovered */
+    transform: translateY(-2px); /* Makes the shape "float" up slightly */
+}
