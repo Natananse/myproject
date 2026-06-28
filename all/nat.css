@@ -11,7 +11,7 @@ ul {
 .na {
     color: red;
     font-weight: bold;
-    margin-right: 200px;
+    margin-right: 100px;
     shape-outside: rectangle(10px, 5px, 100px, 100px);
 }
 ul li {
@@ -40,12 +40,13 @@ ul li:hover {
 .le {
     color: rgba(0, 47, 255, 0.89);
     font-weight: bold;
-    margin-left: 100px;
+    margin-left: 250px;
     /* shape-outside: rectangle(10px, 5px, 100px, 100px); */
 }
-.rectangle {
+#lets-talk {
   height: 50px;
-  width: 100px;
-  background-color: #555;
-  text align: center;
+  width: 250px;
+  background-color: #8f0b0b;
+  text-align: center;
+  line-height:50px;
 }
