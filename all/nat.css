@@ -37,3 +37,14 @@ ul li:hover {
     background-color: #4338ca; /* Darkens the shape slightly when hovered */
     transform: translateY(-2px); /* Makes the shape "float" up slightly */
 }
+.le {
+    color: rgba(0, 47, 255, 0.89);
+    font-weight: bold;
+    margin-left: 200px;
+    /* shape-outside: rectangle(10px, 5px, 100px, 100px); */
+}
+.rectangle {
+  height: 50px;
+  width: 100px;
+  background-color: #555;
+}
