@@ -4,7 +4,7 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    gap: 50px;
+    gap: 70px;
     /* background: linear-gradient(135deg, #6e8efb, #a777e3);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 } */
@@ -38,15 +38,24 @@ ul li:hover {
     transform: translateY(-2px); /* Makes the shape "float" up slightly */
 }
 .le {
-    color: rgba(0, 47, 255, 0.89);
+    color: rgba(146, 162, 233, 0.89);
     font-weight: bold;
     margin-left: 250px;
-    /* shape-outside: rectangle(10px, 5px, 100px, 100px); */
 }
-#lets-talk {
+/* #lets-talk {
   height: 50px;
   width: 250px;
   background-color: #8f0b0b;
   text-align: center;
   line-height:50px;
+} */
+ #lets-talk {
+    height: 70px;          /* Make height and width equal */
+    width: 70px;           /* Adjust this size to whatever fits your design */
+    background-color: #131bac;
+    text-align: center;
+    line-height: 70px;     /* Match line-height to the new height to center text vertically */
+    border-radius: 50%;     /* This turns the square into a circle */
+    margin: -37px auto;      /* Center the circle horizontally */
+    transform: translateX(60px);
 }
