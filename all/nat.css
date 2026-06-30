@@ -5,9 +5,7 @@ ul {
     padding: 0;
     margin: 0;
     gap: 70px;
-    /* background: linear-gradient(135deg, #6e8efb, #a777e3);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-} */
+    }
 .na {
     color: rgb(207, 176, 21);
     font-weight: bold;
@@ -21,7 +19,7 @@ ul li {
     cursor: pointer;
     
     /* Shape Settings */
-    background-color: #4f46e5; /* A sleek modern indigo background */
+    background-color: #3eda9e; /* A sleek modern indigo background */
     padding: 10px 24px;        /* Vertical and horizontal space inside the shape */
     border-radius: 50px;       /* 50px creates a perfect pill shape. Change to 8px for a rounded box. */
     
@@ -34,7 +32,7 @@ ul li {
 
 /* 3. Add an interactive hover effect */
 ul li:hover {
-    background-color: #4338ca; /* Darkens the shape slightly when hovered */
+    background-color: #737317; /* Darkens the shape slightly when hovered */
     transform: translateY(-2px); /* Makes the shape "float" up slightly */
 }
 .le {
@@ -42,28 +40,27 @@ ul li:hover {
     font-weight: bold;
     margin-left: 250px;
 }
+
 /* #lets-talk {
-  height: 50px;
-  width: 250px;
-  background-color: #8f0b0b;
-  text-align: center;
-  line-height:50px;
-} */
- #lets-talk {
-    height: 70px;          /* Make height and width equal */
-    width: 70px;           /* Adjust this size to whatever fits your design */
+    height: 70px;
+    width: 70px;
     background-color: #131bac;
+    color: #f3f7f3;
     text-align: center;
-    line-height: 70px;     /* Match line-height to the new height to center text vertically */
-    border-radius: 50%;     /* This turns the square into a circle */
-    margin: -37px auto;      /* Center the circle horizontally */
-    transform: translateX(60px);
-}
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;        /* shrink text so it fits one line */
+    /* line-height: 1.1;       allow normal wrapping/centering if it does wrap */
+    margin: 0;               /* let flexbox handle positioning, not negative margins */
+/* } */ */
 .natna-wrapper {
     display: flex;
     justify-content: center;   /* centers horizontally */
     align-items: center;
-    margin: 60px auto;         /* large margin from all borders */
+    margin-top: -200px;
+    margin-left: 90px;
     padding: 40px;
     position: relative;
 }
@@ -73,14 +70,14 @@ ul li:hover {
     position: absolute;
     width: 320px;
     height: 320px;
-    background-color: #131bac;   /* circle background color, change as you like */
+    background-color: #2a30a4c7;   /* circle background color, change as you like */
     border-radius: 50%;
     z-index: 0;
 }
 
 .natna {
-    width: 250px;               /* control the visible image size here */
-    height: 250px;
+    width: 450px;               /* control the visible image size here */
+    height: 450px;
     object-fit: cover;
     border-radius: 50%;          /* makes the image itself circular */
     border: 5px solid white;     /* optional ring around the photo */
