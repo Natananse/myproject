@@ -1,34 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="nat.css">
-    <title>personal website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Natnael — Web Developer</title>
+<link rel="stylesheet" href="nat.css">
 </head>
 <body>
-    <h1>wellcome to my website</h1>
-    <ul>
-        <li id="Natnael" class="na"> Natnael</li>
-        <li id="home" class="ho"> home</li>
-        <li id="work" class="wo"> work</li>
-        <li id="services" class="ser"> services</li>
-        <li id="about" class="ab"> about</li>
-        <li id="lets-talk" class="le">lets talk</li>
-        </ul>
-             <h2>hello I'm</h2>
-             <h1 style="color:blue;"> <b>Natnael</b></h1>
-            <p>
-            <div class="typing-container">
-            <p>my name is natnael.</p>  
-            <p>and I'm a web developer. </p>
-            <p>I build responsive and user-friendly websites!</p>
-            </div>
-            </p>
-            <div class="natna-wrapper">
-            <img src="image/profile.jpg" alt="Natnael" class="natna">
-             </div>
-    <script src="nat.js"></script>
-    
+
+  <div class="hero-card">
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="logo">Natnael<span class="dot">.</span></div>
+
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="works.html">Works</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About me</a></li>
+      </ul>
+
+      <button class="lets-talk">LET'S TALK</button>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="content">
+
+      <!-- LEFT TEXT -->
+      <div class="intro">
+        <p class="hello">Hello, I'm</p>
+        <h1 class="name">NATNAEL</h1>
+        <p class="desc">
+          Web developer who loves building responsive and user-friendly
+          websites. I focus on clean code, smooth interactions, and
+          products that connect people.
+        </p>
+
+        <div class="contact">
+          <p class="email">erminati@email.com</p>
+          <div class="socials">
+            <a href="#" class="icon icon-mail" aria-label="Email">✉</a>
+            <a href="#" class="icon" aria-label="Dribbble">●</a>
+            <a href="#" class="icon" aria-label="Behance">Bē</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CENTER PORTRAIT -->
+      <div class="portrait">
+        <img src="image/profile.jpg" alt="Natnael">
+      </div>
+
+      <!-- RIGHT SKILL CARDS -->
+      <div class="skills">
+
+        <div class="skill-card skill-1">
+          <div class="card-img">UI</div>
+          <p class="skill-label">UI/UX Designer</p>
+        </div>
+
+        <div class="skill-card skill-2">
+          <div class="card-img">3D</div>
+          <p class="skill-label">3D Designer</p>
+        </div>
+
+        <div class="skill-card skill-3">
+          <div class="card-img">JS</div>
+          <p class="skill-label">React JS Developer</p>
+        </div>
+
+      </div>
+
+    </main>
+
+  </div>
+
 </body>
 </html>
