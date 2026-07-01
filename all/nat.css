@@ -20,10 +20,11 @@ body {
   width: 100%;
   max-width: 1500px;
   background: #f3f5f8;
-  border-radius: 28px;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.06);
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(168, 41, 41, 0.06);
   padding: 40px 60px 0 60px;
   overflow: hidden;
+  margin-right: 10px;
 }
 
 /* ===== NAVBAR ===== */
@@ -178,6 +179,7 @@ body {
   justify-content: center;
   align-items: flex-end;
   height: 100%;
+  margin: 0 40px;
 }
 
 .portrait img {
