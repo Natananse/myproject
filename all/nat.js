@@ -44,15 +44,4 @@ document.querySelectorAll(".nav-links a").forEach(link => {
 });
 
 
-// ===== 3. SCROLL ANIMATIONS =====
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add("visible");
-    }
-  });
-}, { threshold: 0.2 });
-
-document.querySelectorAll(".skill-card, .intro, .portrait").forEach(el => {
-  observer.observe(el);
-});
+// ===== 3. SCROLL ANIMATIONS ====
