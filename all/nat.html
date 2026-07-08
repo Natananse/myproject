@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="nat.css">
 </head>
 <body>
-
+<script src="nat.js"></script>
   <div class="hero-card">
 
     <!-- NAVBAR -->
@@ -36,7 +36,7 @@
           products that connect people.
         </p>
         <div class="portrait">
-        <img src="image/download.png" alt="Natnael">
+        <img id="portrait-img" src="image/download.png" alt="Natnael">
       </div>
 
         <div class="contact">
@@ -80,6 +80,9 @@
   <span></span>
   <span></span>
 </button>
+<button onclick="document.getElementById('portrait-img').src='pic_bulbon.gif'">Turn on the light</button>
+
+<button onclick="document.getElementById('portrait-img').src='pic_bulboff.gif'">Turn off the light</button>
 
 </body>
 </html>
